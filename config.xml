@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="https://github.com/fan0618/BleTestApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.company.BleTestApp" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>BLE APP</name>
     <description>
         BLE testing for HM-10
     </description>
-    <author email="fan0618@gmail.com">
+    <author email="fan0618@gmail.com" href="http://fan0618.com">
         Frank Cheng
     </author>
     <content src="index.html" />
