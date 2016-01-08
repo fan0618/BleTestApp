@@ -75,8 +75,7 @@ var app = {
 					console.log("BLE disconnect failed");
 				}
 			);
-		}
-		else {
+		} else {
 			console.log("Scan BLE");
 			page1.style.display='none';
 			page2.style.display='block';
@@ -139,7 +138,7 @@ var app = {
 		}
 		data[i]=0x0d;
 		data[i+1]=0x0a;
-		ble.write(deviceId,"ffe0","ffe1",data.buffer,
+		ble.writeWithoutResponse(deviceId,"ffe0","ffe1",data.buffer,
 			function() {
 				console.log("write success");
 			},

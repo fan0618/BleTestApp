@@ -74,8 +74,8 @@ body {
 	background-color:#80C0FF;
 	top:0%;
 	left:0%;
-	right:100px;
-	height:50px;
+	width:80%;
+	height:10%;
 	vertical-align:center;
 }
 
@@ -83,16 +83,16 @@ body {
 	position:absolute;
 	right:0%;
 	top:0%;
-	height:50px;
-	width:100px;
+	height:10%;
+	width:20%;
 }
 
 .content_area {
 	position:absolute;
 	left:0%;
-	top:50px;
+	top:10%;
 	width:100%;
-	bottom:50px;
+	bottom:10%;
 }
 
 #receiveBox {
@@ -105,10 +105,10 @@ body {
 
 .bottom_area {
 	position:absolute;
-	right:100px;
+	width:80%;
 	left:0%;
 	bottom:0%;
-	height:50px;
+	height:10%;
 }
 
 #sendBox {
@@ -121,10 +121,10 @@ body {
 
 #sendButton {
 	position:absolute;
-	bottom:0px;
-	right:0px;
-	height:50px;
-	width:100px;
+	bottom:0%;
+	right:0%;
+	height:10%;
+	width:20%;
 }
 
 #page1 {
